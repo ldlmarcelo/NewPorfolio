@@ -1,0 +1,47 @@
+.body {
+    background-color: aliceblue;
+}
+
+#navbar-header{
+    background-color: blueviolet !important;
+    color: white;
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+.header a{
+    color: white;
+}
+
+#APLogo {
+    height:80px;
+}
+
+#logogithub {
+    height: 35px;
+    margin-bottom: 20px;
+}
+#logolinkedin {
+    height: 35px;
+
+}
+
+#login {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 10px;
+}
+
+#banner {
+    filter: grayscale(30%);
+    
+}
+
+#mifoto {
+    position: relative;
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 50px;
+    margin-top: -9%;
+
+}
