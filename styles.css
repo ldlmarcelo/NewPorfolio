@@ -60,9 +60,7 @@
     border: 0px;
 }
 
-.container, .row, .col {
-    margin-top: 0px;
-}
+
 
 .col-xs-2 {
     margin-top: 10px;
@@ -79,11 +77,10 @@
 }
 
 .cardProyecto {
-    margin-left:50px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    padding: 20px;
-    background-color: blueviolet;
+    
+    
+  
+    background-color: rgb(221, 41, 9);
     color: aliceblue;
 }
 
@@ -95,6 +92,37 @@
  
 }
 
-.cards {
-    background-color: aliceblue;
+
+.card-link {
+    color: white;
+}
+
+.container {
+    background-color: blueviolet;
+}
+
+.proyects {
+    background-color: blueviolet;
+    color: white;
+    margin-bottom: 0;
+}
+
+.cardcol {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.explab {
+    padding-top: 15px;
+    background-color: blueviolet;
+    
+}
+
+.hs-titulo {
+    color: white;
+}
+
+.footer {
+    color: white;
+   
 }
