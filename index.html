@@ -71,7 +71,7 @@
     <main class="main">
 
         <!--Acerca de-->
-        <div class="container">
+        <div class="container header-main">
             <div class="card" style="width: 100%;">
                 <div class="row">
                     <div class="col-md-4">
@@ -91,14 +91,13 @@
                             <p class="card-text">Trabajo en el área de Infraestructura IT como Analista de
                                 Soporte Técnico y Helpdesk hace más de 15 años. Actualmente <span> estoy comprometido en
                                     mi formación como Full Stack Developer y pretendo involucrarme, participar y
-                                    trabajar en
-                                    la industria del Desarrollo Web y de aplicaciones a nivel nacional y/o
+                                    trabajar en la industria del Desarrollo Web y de aplicaciones a nivel nacional y/o
                                     internacional</span>. Este portfolio fue desarrollado por mí gracias a la
                                 capacitación brindada por Argentina Programa #YoProgramo.
                                 En lo personal y privado soy un apasionado de la música en general y del
                                 repertorio de música clásica para guitarra de concierto o española. Practico deportes
-                                con el
-                                objetivo de superar mis propias marcas. Me gusta relacionarme con personas con intereses
+                                con el objetivo de superar mis propias marcas. Me gusta relacionarme con personas con
+                                intereses
                                 comunes. Valoro la amistad y me considero empático y responsable. </p>
                         </div>
                     </div>
@@ -109,9 +108,9 @@
         <!----------------------------------------------------------------------------------------------------------------------->
         <!--Experiencia Laboral-->
 
-        <div class="container">
+        <div class="container expyedu">
 
-            <div class="card explab" style="width: 100%;">
+            <div class="card" style="width: 100%;">
                 <div class="row">
                     <div class="col">
                         <ul class="list-group list-group-item">
@@ -150,9 +149,9 @@
         <!----------------------------------------------------------------------------------------------------------------------->
         <!-- Educación -->
 
-        <div class="container">
+        <div class="container expyedu">
 
-            <div class="card explab" style="width: 100%;">
+            <div class="card" style="width: 100%;">
                 <div class="row">
                     <div class="col">
                         <ul class="list-group list-group-item">
@@ -187,9 +186,9 @@
         <!-- /Educación -->
         <!----------------------------------------------------------------------------------------------------------------------->
         <!-- HardSkills -->
-        <div class="container">
-            <div class="card explab">
-                <div class="card-body">
+        <div class="container skills">
+            <div>
+                <div class="s-body">
                     <h5 class="hs-titulo">Hard Skills</h5>
                     <div class="row">
                         <div class="col-xs-2">
@@ -254,12 +253,12 @@
             </div>
         </div>
         <!--/hardSkills-->
+        
         <!--SoftSills-->
-        <div class="container">
-            <div class="card explab">
-                <div class="card-body">
+        <div class="container skills">
+            <div>
+                <div class="s-body">
                     <h5 class="hs-titulo">Soft Skills</h5>
-
                     <div class="row">
                         <div class="col-xs-2">
                             <img src="/img/compromiso.png" alt="compromiso" img-fluid width="50px">
@@ -335,23 +334,23 @@
                 </div>
             </div>
         </div>
-        </div>
+        
 
         <!--/SoftSills-->
         <!------------------------------------------------------>
         <!--Proyectos-->
 
-        <div class="container">
+        <div class="container proyectos">
+        
             <div class="row">
-                <div class="col proyects">
+                <div class="col-md">
                     <h5>Proyectos</h5>
                 </div>
             </div>
-
+    
             <div class="row">
-
-                <div class="col cardcol">
-                    <div class="card cardProyecto" style="width: 18rem;">
+                <div class="col">
+                    <div class="card card-proyectos" style="width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">Portfolio Web</h5>
                             <h6 class="card-subtitle mb-2 text-muted"></h6>
@@ -362,8 +361,8 @@
                     </div>
                 </div>
                 
-                <div class="col cardcol">
-                    <div class="card cardProyecto" style="width: 18rem;">
+                <div class="col">
+                    <div class="card card-proyectos" style="width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">Proyecto 2</h5>
                             <h6 class="card-subtitle mb-2 text-muted"></h6>
@@ -373,9 +372,9 @@
                         </div>
                     </div>
                 </div>
- 
-                <div class="col cardcol">
-                    <div class="card cardProyecto" style="width: 18rem;">
+    
+                <div class="col">
+                    <div class="card card-proyectos" style="width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">Proyecto 3</h5>
                             <h6 class="card-subtitle mb-2 text-muted"></h6>
@@ -385,9 +384,9 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col cardcol">
-                    <div class="card cardProyecto" style="width: 18rem;">
+    
+                <div class="col">
+                    <div class="card card-proyectos" style="width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">Proyecto 4</h5>
                             <h6 class="card-subtitle mb-2 text-muted"></h6>
@@ -397,9 +396,9 @@
                         </div>
                     </div>
                 </div>
-
+    
             </div>
-
+    
         </div>
 
 
@@ -410,48 +409,49 @@
 
         <footer class="container footer">
             <div class="container py-5">
-              <div class="row">
-                <div class="col-lg-3 mb-3">
-                  <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="#">
-                   
-                    <span>Mi Portfolio Web 2022</span>
-                  </a>
-                  <ul class="list-unstyled small text-muted">
-                    <li class="mb-2">Diseñado y construido con amor y dedicación bajo la supervisión de Argentina Programa</a>.</li>
-                </ul>
+                <div class="row">
+                    <div class="col-lg-3 mb-3">
+                        <a class="d-inline-flex align-items-center mb-2 text-decoration-none" href="#">
+
+                            <span style="color: white;">Mi Portfolio Web 2022</span>
+                        </a>
+                        <ul class="list-unstyled small">
+                            <li class="mb-2">Diseñado y construido con amor y dedicación bajo la supervisión de
+                                Argentina Programa</a>.</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="#">Home</a></li>
+                            <li class="mb-2"><a href="#">Más sobre mí</a></li>
+                            <li class="mb-2"><a href="#">Intereses</a></li>
+                            <li class="mb-2"><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-2 mb-3">
+                        <h5>Guides</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="#">Experciencia</a></li>
+                            <li class="mb-2"><a href="#">Educación</a></li>
+                            <li class="mb-2"><a href="#">Soft Skills</a></li>
+                            <li class="mb-2"><a href="#">Hard Skills</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-2 mb-3">
+                        <h5>Projects</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="#">Mi Portfolio</a></li>
+                            <li class="mb-2"><a href="#">Proyecto 1</a></li>
+                            <li class="mb-2"><a href="#">Proyecto 2</a></li>
+                            <li class="mb-2"><a href="#">Proyecto 3</a></li>
+                            <li class="mb-2"><a href="#">Proyecto 4</a></li>
+                        </ul>
+                    </div>
+
                 </div>
-                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
-                  <h5>Links</h5>
-                  <ul class="list-unstyled">
-                    <li class="mb-2"><a href="#">Home</a></li>
-                    <li class="mb-2"><a href="#">Más sobre mí</a></li>
-                    <li class="mb-2"><a href="#">Intereses</a></li>
-                    <li class="mb-2"><a href="#">Blog</a></li>
-                  </ul>
-                </div>
-                <div class="col-6 col-lg-2 mb-3">
-                  <h5>Guides</h5>
-                  <ul class="list-unstyled">
-                    <li class="mb-2"><a href="#">Experciencia</a></li>
-                    <li class="mb-2"><a href="#">Educación</a></li>
-                    <li class="mb-2"><a href="#">Soft Skills</a></li>
-                    <li class="mb-2"><a href="#">Hard Skills</a></li>
-                  </ul>
-                </div>
-                <div class="col-6 col-lg-2 mb-3">
-                  <h5>Projects</h5>
-                  <ul class="list-unstyled">
-                    <li class="mb-2"><a href="#">Mi Portfolio</a></li>
-                    <li class="mb-2"><a href="#">Proyecto 1</a></li>
-                    <li class="mb-2"><a href="#">Proyecto 2</a></li>
-                    <li class="mb-2"><a href="#">Proyecto 3</a></li>
-                    <li class="mb-2"><a href="#">Proyecto 4</a></li>
-                  </ul>
-                </div>
-                
-              </div>
             </div>
-          </footer>
+        </footer>
         <!--/Footer-->
 
 

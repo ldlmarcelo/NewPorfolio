@@ -85,12 +85,14 @@
 }
 
 .footer {
-    color: blue;
+    color: white;
     text-align: left;
  
 }
 
-
+.py-5 a {
+    color: white;
+}
 
 
 
