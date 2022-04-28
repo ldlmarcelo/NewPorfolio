@@ -112,7 +112,7 @@ margin-left: -17px;
 
     margin-bottom: 25px;
     background-color: rgb(20, 17, 199);
-    color: red;
+    color: rgb(238, 171, 171);
     font-weight: bolder;
 }
 
@@ -136,7 +136,7 @@ margin-left: -17px;
     text-align: left;
 }
 
-.footer h5, li {
+.footer h5,  {
     margin-right:100px;
 }
 
