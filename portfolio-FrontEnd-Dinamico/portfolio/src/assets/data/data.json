@@ -1,0 +1,10 @@
+{
+  "APLogo": "./assets/img/APLogo-20-20.png",
+  "logo-in": "/src/assets/img/Logolinkedin.png",
+  "logo-gitbub": "/src/assets/img/github.png",
+
+  "avatar": "/src/assets/img/mi-foto.jpg",
+  "name": "Marcelo Javier Luna Dalla Lasta",
+  "profesion": "Desarrollador Web  Fullstack Junior",
+  "ubicacion": "Argentina - Córdoba"
+}
