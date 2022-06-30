@@ -1,12 +1,30 @@
 {
   "APLogo": "./assets/img/APLogo-20-20.png",
-  "logo-in": "/src/assets/img/Logolinkedin.png",
-  "logo-gitbub": "./src/assets/img/github.png",
+  "imgBackground": "./assets/img/developer.jpg",
+  "logoGithub": "./assets/img/github.png",
+  "logoLinkedin": "./assets/img/Logolinkedin.png",
 
   "avatar": "./assets/img/mifoto.jpg",
   "name": "Marcelo Javier Luna Dalla Lasta",
   "profesion": "Desarrollador Web  Fullstack Junior",
-  "ubicacion": "Argentina - Córdoba"
+  "ubicacion": "Argentina - Córdoba",
+  "sobreMi": "Trabajo en el área de Infraestructura IT como Analista de Soporte Técnico y Helpdesk hace más de 15 años. Actualmente estoy comprometido en mi formación como Full Stack Developer y pretendo involucrarme, participar y   trabajar en la industria del Desarrollo Web y de aplicaciones a nivel nacional y/o internacional. Este portfolio fue desarrollado por mí gracias a la capacitación brindada por Argentina Programa #YoProgramo. En lo personal y privado soy un apasionado de la música en general y del repertorio de música clásica para guitarra de concierto o española. Practico deportes con el objetivo de superar mis propias marcas. Me gusta relacionarme con personas con intereses comunes. Valoro la amistad y me considero empático y responsable.",
 
+  "experienciaLaboral": [
+    {
+      "fecha":"2013-Actualidad",
+      "empresa":"Caruso Seguros",
+      "logo":"./assets/img/logocaruso.svg",
+      "puesto":"Analista de Soporte Técnico",
+      "descripcion":"Conocimiento en Atlassian Jira Service Desk (administrador y configuración) - Conocimiento de Office 365 - Microsoft Sharepoint - Infraestructura IT en general"
 
+    },
+    {
+      "fecha":"2005-2013",
+      "empresa":"Jazpplat Argentina para Jazztel España",
+      "logo":"./assets/img/logoJazztel.ico",
+      "puesto":"varios",
+      "descripcion":"Representante comercial - Representante de Atención al Cliente - Soporte Técnico Nivel 1 - Soporte Técnico Nivel 2 - Analista de Soporte Técnico para cliente Interno."
+    }
+  ]
 }
