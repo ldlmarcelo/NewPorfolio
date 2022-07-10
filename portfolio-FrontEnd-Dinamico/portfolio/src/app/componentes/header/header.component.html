@@ -23,13 +23,13 @@
                     <li class="nav-item active">
                         <a class="nav-link" target="_blank"
                             href="https://ar.linkedin.com/in/marcelo-javier-luna-dalla-lasta-7a57b71a6?trk=people-guest_people_search-card">
-                            <img id="logolinkedin" src="./assets/img/Logolinkedin.png" alt="Linkedin">
+                            <img id="logolinkedin" [src]="miPortfolio.logoLinkedin" alt="Linkedin">
                         </a>
                     </li>
 
                     <li class="nav-item active">
                         <a class="nav-link" id="logogithub" target="_blank" href="https://github.com/ldlmarcelo">
-                            <img id="logogithub" src="./assets/img/github.png" alt="Github">
+                            <img id="logogithub" [src]="miPortfolio.logoGithub" alt="Github">
                         </a>
                     </li>
 
@@ -42,7 +42,7 @@
 
 
         <div class="card" style="width: 100%;">
-            <img src="./assets/img/developer.jpg" class="card-img-top" alt="...">
+            <img [src]="miPortfolio.imgBackground" class="card-img-top" alt="...">
 
         </div>
 

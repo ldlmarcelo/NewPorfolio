@@ -1,40 +1,30 @@
 <!--Experiencia Laboral-->
 
 <div class="container expyedu">
+  <div class="card" style="width: 100%">
+    <div class="row">
+      <div class="col">
 
-    <div class="card" style="width: 100%;">
-        <div class="row">
-            <div class="col">
-                <ul class="list-group list-group-item">
-                    <li class="list-group-item">
-                        <h5> Experiencia Laboral </h5>
-                    </li>
-                    <li class="list-group-item"><img src="./assets/img/logocaruso.svg" alt="Caruso Seguros" width="50px"
-                            style="margin-right: 10px;">
-                        - 2013-Actualidad - Caruso Seguros - Analista de Soporte Técnico. Conocimiento en
-                        Atlassian Jira Service
-                        Desk (administrador y configuración) - Conocimiento de Office 365 - Microsoft Sharepoint
-                        - Infraestructura IT en general
-                    </li>
-                    <li class="list-group-item">
-                        <img src="./assets/img/logoJazztel.ico" alt="Jazztel" width="50px" style="margin-right: 10px;">
-                        - 2005-2013 - Jazpplat Argentina para Jazztel España: - Representante comercial
-                        - Representante de Atención al Cliente
-                        - Soporte Técnico Nivel 1
-                        - Soporte Técnico Nivel 2
-                        - Analista de Soporte Técnico para cliente Interno.
-                    </li>
-                    <li class="list-group-item">
-                        <a target="_blank"
-                            href="https://ar.linkedin.com/in/marcelo-javier-luna-dalla-lasta-7a57b71a6?trk=people-guest_people_search-card"
-                            class="card-link">...más detalles
-                        </a>
-                    </li>
-                </ul>
+        <ul class="list-group list-group-item">
+          <h5>Experiencia Laboral</h5>
 
-            </div>
-        </div>
+          <li *ngFor="let experiencia of experienciaLaboralList" class="list-group-item">
+            <img [src]="experiencia.logo" style= "width:50px" alt="">
+            <p>{{experiencia.fecha}} {{experiencia.empresa}} {{experiencia.puesto}} {{experiencia.descripcion}}</p>
+          </li>
+
+          <li class="list-group-item">
+            <a
+              target="_blank"
+              href="https://ar.linkedin.com/in/marcelo-javier-luna-dalla-lasta-7a57b71a6?trk=people-guest_people_search-card"
+              class="card-link"
+              >...más detalles
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </div>
 </div>
 
 <!--/Experiencia Laboral-->
