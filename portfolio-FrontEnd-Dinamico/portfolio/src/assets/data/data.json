@@ -12,19 +12,25 @@
 
   "experienciaLaboral": [
     {
-      "fecha":"2013-Actualidad",
-      "empresa":"Caruso Seguros",
-      "logo":"./assets/img/logocaruso.svg",
-      "puesto":"Analista de Soporte Técnico",
-      "descripcion":"Conocimiento en Atlassian Jira Service Desk (administrador y configuración) - Conocimiento de Office 365 - Microsoft Sharepoint - Infraestructura IT en general"
-
+      "fecha": "2013_Actualidad -",
+      "empresa": "Caruso Seguros -",
+      "logo": "./assets/img/logocaruso.svg",
+      "puesto": "Analista de Soporte Técnico -",
+      "descripcion": "Conocimiento en Atlassian Jira Service Desk (administrador y configuración) - Conocimiento de Office 365 - Microsoft Sharepoint - Infraestructura IT en general"
     },
     {
-      "fecha":"2005-2013",
-      "empresa":"Jazpplat Argentina para Jazztel España",
-      "logo":"./assets/img/logoJazztel.ico",
-      "puesto":"varios",
-      "descripcion":"Representante comercial - Representante de Atención al Cliente - Soporte Técnico Nivel 1 - Soporte Técnico Nivel 2 - Analista de Soporte Técnico para cliente Interno."
+      "fecha": "2005_2013 -",
+      "empresa": "Jazpplat Argentina para Jazztel España -",
+      "logo": "./assets/img/logoJazztel.ico",
+      "puesto": "",
+      "descripcion": "Representante comercial - Representante de Atención al Cliente - Soporte Técnico Nivel 1 - Soporte Técnico Nivel 2 - Analista de Soporte Técnico para cliente Interno."
+    }
+  ],
+
+  "educacion": [
+    {
+      "fecha": "",
+      "institucion": ""
     }
   ]
 }
