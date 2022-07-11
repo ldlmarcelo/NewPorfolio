@@ -29,8 +29,96 @@
 
   "educacion": [
     {
-      "fecha": "",
-      "institucion": ""
+      "fecha": "- 2022",
+      "institucion": "- Argentina Programa 2da Etapa #YoProgramo",
+      "titulo": "Fullstack Developer Junior"
+    },
+
+    {
+      "fecha": "- 2021",
+      "institucion": "- Argentina Programa 1ra Etapa #SeProgramar ",
+      "titulo": "- Fundamentos"
+    },
+
+    {
+      "fecha": "- 2011",
+      "institucion": "- Curso .NET y Programación Orientada a Objetos",
+      "titulo": ""
+    },
+
+    {
+      "fecha": "- 1995",
+      "institucion": "- ENET Nro 1 'Profesor Vicente García Aguilera' ",
+      "titulo": "Técnico Electro Mecánico"
+    }
+  ],
+
+  "hardskill": [
+    {
+      "icon": "./assets/img/html5.png",
+      "porcentaje": "53"
+    },
+    {
+      "icon": "./assets/img/css3.png",
+      "porcentaje": "57"
+    },
+    {
+      "icon": "./assets/img/javascript.png",
+      "porcentaje": "38"
+    },
+    {
+      "icon": "./assets/img/angular.png",
+      "porcentaje": "56"
+    },
+    {
+      "icon": "./assets/img/mysql_logo.png",
+      "porcentaje": "72"
+    }
+  ],
+  "softskill": [
+    {
+      "icon": "./assets/img/compromiso.png",
+      "porcentaje": "98"
+    },
+    {
+      "icon": "./assets/img/creatividad.png",
+      "porcentaje": "90"
+    },
+    {
+      "icon": "./assets/img/empatia.png",
+      "porcentaje": "95"
+    },
+    {
+      "icon": "./assets/img/gestion de tiempo.png",
+      "porcentaje": "80"
+    },
+    {
+      "icon": "./assets/img/puntualidad.png",
+      "porcentaje": "100"
+    },
+    {
+      "icon": "./assets/img/trabajoenequipo.png",
+      "porcentaje": "95"
+    }
+  ],
+  "proyectosList": [
+    {
+      "titulo": "Portfolio Web",
+      "subtitulo": "#YoProgramo",
+      "detalle": "Mi Portfolio",
+      "link": "https://www.youtube.com/watch?v=WtPY-JHczPM"
+    },
+    {
+      "titulo": "Proyecto 2",
+      "subtitulo": "Segundo proyecto",
+      "detalle": "Hermoso Proyecto",
+      "link": "https://www.youtube.com/watch?v=kfjXp4KTTY8"
+    },
+    {
+      "titulo": "Proyecto 3",
+      "subtitulo": "Tercer proyecto",
+      "detalle": "El tercero es el vencido",
+      "link": "https://www.youtube.com/watch?v=6eAGKDUpPfQ"
     }
   ]
 }

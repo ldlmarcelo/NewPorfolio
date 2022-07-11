@@ -2,77 +2,18 @@
     <div>
         <div class="s-body">
             <h5 class="hs-titulo">Soft Skills</h5>
-            <div class="row">
-                <div class="col-xs-2">
-                    <img src="./assets/img/compromiso.png" alt="compromiso" img-fluid width="50px">
-                </div>
-                <div class="col-md">
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100">25%</div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-xs-2">
-                    <img src="./assets/img/creatividad.png" alt="creatividad" img-fluid width="50px">
-                </div>
-                <div class="col-md">
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100">25%</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xs-2">
-                    <img src="./assets/img/empatia.png" alt="empatia" img-fluid width="50px">
-                </div>
-                <div class="col-md">
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100">25%</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xs-2">
-                    <img src="./assets/img/gestion de tiempo.png" alt="gestión dle tiempo" img-fluid width="50px">
-                </div>
-                <div class="col-md">
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100">25%</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xs-2">
-                    <img src="./assets/img/puntualidad.png" alt="puntualidad" img-fluid width="50px">
-                </div>
-                <div class="col-md">
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100">25%</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xs-2">
-                    <img src="./assets/img/trabajoenequipo.png" alt="trabajo en equipo" img-fluid width="50px">
-                </div>
-                <div class="col-md">
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100">25%</div>
-                    </div>
-                </div>
-            </div>
+            <div class="row" *ngFor="let softskill of softSkillList">
+              <div class="col-xs-2">
+                  <img [src]="softskill.icon" img-fluid width="50px">
+              </div>
+              <div class="col-md">
+                  <div class="progress">
+                      <div class="progress-bar" role="progressbar" [style.width.%]="softskill.porcentaje" aria-valuenow="25"
+                          aria-valuemin="0" aria-valuemax="100">{{softskill.porcentaje}} %</div>
+                  </div>
+              </div>
+          </div>
 
         </div>
     </div>
