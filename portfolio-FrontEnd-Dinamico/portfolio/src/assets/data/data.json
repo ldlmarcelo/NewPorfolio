@@ -78,27 +78,33 @@
   "softskill": [
     {
       "icon": "./assets/img/compromiso.png",
-      "porcentaje": "98"
+      "porcentaje": "98",
+      "tooltip": "Compromiso"
     },
     {
       "icon": "./assets/img/creatividad.png",
-      "porcentaje": "90"
+      "porcentaje": "90",
+      "tooltip": "Creatividad"
     },
     {
       "icon": "./assets/img/empatia.png",
-      "porcentaje": "95"
+      "porcentaje": "95",
+      "tooltip": "Empatía"
     },
     {
       "icon": "./assets/img/gestion de tiempo.png",
-      "porcentaje": "80"
+      "porcentaje": "80",
+      "tooltip": "Gestión del tiempo"
     },
     {
       "icon": "./assets/img/puntualidad.png",
-      "porcentaje": "100"
+      "porcentaje": "100",
+      "tooltip": "Puntualidad"
     },
     {
       "icon": "./assets/img/trabajoenequipo.png",
-      "porcentaje": "95"
+      "porcentaje": "95",
+      "tooltip": "Trabajo en equipo"
     }
   ],
   "proyectosList": [
