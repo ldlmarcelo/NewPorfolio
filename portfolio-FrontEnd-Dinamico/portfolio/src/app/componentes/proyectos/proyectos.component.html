@@ -1,50 +1,21 @@
 <div class="container proyectos">
-      
-    <div class="row">
-        <div class="col-md">
-            <h5>Proyectos</h5>
-        </div>
+  <div class="row">
+    <div class="col-md">
+      <h5>Proyectos</h5>
     </div>
 
     <div class="row">
-        <div class="col">
-            <div class="card card-proyectos" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Portfolio Web</h5>
-                    <h6 class="card-subtitle mb-2 text-muted"></h6>
-                    <p class="card-text">#YoProgramo!
-                    </p>
-                    <a href="#" class="card-link">Mi Portfolio</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="col">
-            <div class="card card-proyectos" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Proyecto 2</h5>
-                    <h6 class="card-subtitle mb-2 text-muted"></h6>
-                    <p class="card-text">Descripción
-                    </p>
-                    <a href="#" class="card-link">Referencia</a>
-                </div>
-            </div>
-        </div>
+      <div class="col" *ngFor="let proyecto of proyectosList">
 
-        <div class="col">
-            <div class="card card-proyectos" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Proyecto 3</h5>
-                    <h6 class="card-subtitle mb-2 text-muted"></h6>
-                    <p class="card-text">Descripción
-                    </p>
-                    <a href="#" class="card-link">Referencia</a>
-                </div>
-            </div>
+        <div class="card card-proyectos" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title">{{ proyecto.titulo }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted"></h6>
+            <p class="card-text">{{ proyecto.subtitulo }}</p>
+            <a [href]=" proyecto.link  " target="_blank" class="card-link">{{ proyecto.detalle }}</a>
+          </div>
         </div>
-
-        
-
+      </div>
     </div>
-
+  </div>
 </div>
